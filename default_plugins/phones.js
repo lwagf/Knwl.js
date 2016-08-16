@@ -17,7 +17,7 @@
           }
         }
         if ((countryCode == null) && knwlInstance.language !== 'unknown') {
-          countryCode = knwlInstance.language;
+          countryCode = "GB";
         }
         try {
           if (phoneFormat.isValidNumber(number, countryCode)) {
