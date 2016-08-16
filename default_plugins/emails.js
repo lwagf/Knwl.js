@@ -17,9 +17,7 @@ function Emails(knwl) {
                 temp = temp.replace(/[,]/g, '');
                 if (emails.test.test(temp)) {
                     match = temp.match(emails.test)[0];
-                    var emailObj = {
-                        address: match
-                    };
+                    var emailObj = address: match;
                     results.push(emailObj);
                }
             }
