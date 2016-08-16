@@ -22,8 +22,7 @@
         try {
           if (phoneFormat.isValidNumber(number, countryCode)) {
             validatedNumbers.push({
-              number: phoneFormat.formatE164(countryCode, number),
-              country: countryCode
+              number: phoneFormat.formatE164(countryCode, number)
             });
           }
         } catch (undefined) {}
